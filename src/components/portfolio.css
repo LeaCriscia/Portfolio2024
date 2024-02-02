@@ -1,0 +1,636 @@
+.header{
+    background-color: black;
+}
+
+.picture{
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+.first {
+    display: inline-block;
+    margin-left: 100px;
+}
+.second {
+    display: inline-block;
+    margin-left: 100px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1 .skill-box {
+    width: 100%;
+    margin: 25px 25px;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.title-text{
+    margin-left: 25px;
+}
+
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+}
+
+.skill-box .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: crimson;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-per.html{
+    width: 90%;
+    animation-delay: 0.1s;
+}
+.skill-per.css {
+    width: 90%;
+    animation-delay: 0.2s;
+}
+.skill-per.java {
+    width: 80%;
+    animation-delay: 0.3s;
+}
+.skill-per.javascript {
+    width: 80%;
+    animation-delay: 0.3s;
+}
+.skill-per.reactjs {
+    width: 80%;
+    animation-delay: 0.3s;
+}
+.skill-per.jquery {
+    width: 80%;
+    animation-delay: 0.4s;
+}
+.skill-per.php {
+    width: 80%;
+    animation-delay: 0.4s;
+}
+.skill-per.node {
+    width: 80%;
+    animation-delay: 0.5s;
+}
+.skill-per.SQL {
+    width: 80%;
+    animation-delay: 0.5s;
+}
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }  
+}
+.contactpic{
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 350px;
+}  
+.content3{
+    background-image: url(./images/bgcontact.jpg);
+    height: 680px;
+}
+.container2{
+    background-image: url(./images/bgcontact.jpg);
+    height: 850px;
+}
+.R8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.R11{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 20px;
+    background-color: pink;
+}
+.R12{
+    margin-left: 120px;
+    font-size: 30px;
+}
+.R14{
+    display: grid;
+    font-size: xx-large;
+    margin-left: 80px;
+
+}
+.R15{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.R16{
+    margin-bottom: 30px;
+}
+
+.quick-link{
+    display: inline-block;
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: pink;
+}
+.quick-link a{
+    color: pink;
+    text-decoration: none;
+}
+.footer-icon{
+    margin-right: 10px;
+}
+.footer-copyrigth{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: smaller;
+    color: pink;
+    height: 20px;
+
+}
+.footer1{
+    background-color: black;
+    border-top:solid 1px pink;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.line{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: pink;
+}
+.RS1{
+    background-color: black;
+    height: 700px;
+}
+.RS2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+}
+.RS4{
+    display: inline-block;
+    width: 750px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+.Some1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about1{
+    display: inline-block;
+    width: 700px;
+}
+.R5{
+    margin-left: 100px;
+}
+.R6{
+    margin-left: 50px;
+    width: 350px;
+}
+.R7{
+    margin-left: 50px;
+    width: 400px;
+}
+/* ---responsive to Nest Hub Max------ */
+@media only screen and (max-width: 1285px) {
+.R5{
+    width: 200px;
+    margin-left: 200px;
+}
+.R6{
+    width: 200px;          
+}
+.R7{
+    width: 200px; 
+}
+.RS1{
+    background-color: black;
+    height: 1300px;
+    width: 1280px;
+}
+.R8{
+    width: 100%;
+    margin-left: 0px;
+    display: grid;
+    }
+.header{
+    width: 1280px;
+}
+.R1{
+    width: 1280px;
+}
+.footer1{
+    width: 1280px;
+}
+.quick-link{
+    margin-left: 150px;
+}
+.container2{
+    width: 1280px;
+    }
+.about1{
+    width: 1280px;
+}
+.container1{
+    margin-left: 30px;
+    width: 730px;
+}
+.container2{
+    height: 1300px;
+}
+.content3{
+    width: 1280px;
+}
+.contactpic{
+    margin-left: 20px;
+}
+.R12{
+    margin-left: 50px;
+}
+.Some1{
+    margin-left: 0px;
+}
+.R11{
+    display: grid;
+}
+.RS4{
+    width: 1250px;
+}
+}
+/* ---responsive to ipad air------ */
+@media only screen and (max-width: 822px) {
+    .R1{
+        width: 820px;
+    }
+    .header{
+        width: 820px;
+    }
+    .R5{
+        margin-left: 120px;
+        width: 100px;
+    }
+    .R6{
+        margin-left: 120px;
+        width: 100px;
+    }
+    .R7{
+        margin-left: 120px;
+        width: 100px;
+    }
+    .RS1{
+        width: 820px;
+        height: 1700px;
+    }
+    .R8{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .R11{
+        width: 400px;
+    }
+    .Some1 h1{
+        font-size: x-large;
+    }
+    .R12{
+        margin-left: 100px;
+    }
+    .about1{
+        width: 820px;
+    }
+    .container1{
+        width: 700px;
+    }
+    .container2{
+        width: 820px;
+    }
+    .content1{
+        height: 700px;
+    }
+    .R13{
+        width: 780px;
+    }
+    .content3{
+        width: 820px;
+        height: 400px;
+    }
+    .contactpic{
+        width: 200px;
+        margin-left: 100px;
+    }
+    .R14{
+        font-size: small;
+        margin-left: 10px;
+    }
+    .R15{
+        font-size: xx-small;
+        margin-top: 40px;
+    }
+    .RS2{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .R16{
+        margin-bottom: 21px;
+    }
+    .footer1{
+        width: 820px;
+    }
+    .quick-link{
+        margin-left: 65px;
+    }
+    .picture{
+        margin-left: 60px;
+    }
+    .second{
+        margin-left: 50px;
+    }
+    .RS4{
+        width: 820px;
+        height: 900px;
+    }
+}
+/* ---responsive to ipad mini------ */
+@media only screen and (max-width: 773px) {
+.R1{
+    width: 768px;
+}
+.header{
+    width: 768px;
+}
+.R5{
+    margin-left: 20px;
+}
+.RS1{
+    width: 768px;
+    height: 1500px;
+}
+.R8{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.container1{
+    width: 700px;
+}
+.container2{
+    width: 768px;
+    height: 1500px;
+}
+.content3{
+    width: 768px;
+    height: 800px;
+}
+.contactpic{
+    width: 300px;
+    margin-top: 90px;
+}
+.R12{
+    margin-left: 120px;
+}
+.R5{
+    margin-left: 110px;
+}
+.R6{
+    margin-left: 110px;
+} 
+.R7{
+    margin-left: 110px;
+}
+.footer1{
+    width: 768px;
+}
+.quick-link{
+    margin-left: 70px;
+}
+.about1{
+    width: 768px;
+}
+.picture{
+    margin-left: 150px;
+}
+.second{
+    margin-left: 250px; 
+}     
+.RS4{
+    width: 768px;
+}
+.R13{
+    width: 728px;
+}
+.R14{
+    margin-top: 150px;
+}
+.R15{
+    margin-top: 190px;
+}
+}
+/* ---responsive to iphoneXR------ */
+@media only screen and (max-width: 415px) {
+.R1{
+    width: 414px;
+}    
+.R3{
+    font-size: small;
+}
+.R4{
+    font-size: small;
+}
+.R5{
+   width: 250px;
+}
+.R6{
+    width: 200px;
+     
+ }
+.R7{
+    width: 250px;
+    margin-left: 70px; 
+}
+.R8{
+    flex-direction: column;
+    height: 1100px;
+    margin-bottom: 200px;
+}
+.R11{
+    width: 22rem;
+}
+.R12{
+    margin-left: 60px;
+}
+.first{
+    margin-left: 10px;
+}
+.second{
+    margin-left: 10px;
+    font-size: x-small;
+}
+.title-text{
+    font-size: large;
+    margin-left: 10px;
+}
+.container1 .skill-box {
+    width: 50%;
+    margin-left: 10px;
+}
+.R13{
+    width: 370px;
+}
+.contactpic{
+    margin-left: 120px;
+    width: 200px;
+}
+.R14{
+    display: grid;
+    font-size: small;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.R15{
+    margin-left: 20px;
+    font-size: small;
+    vertical-align: top;
+    margin-top: 25px;
+}
+.R15 p{
+    margin-bottom: 15px;
+}
+.header{
+    background-image: none;
+
+    width: 414px;
+}  
+.RS1{
+    height: 1250px;
+    width: 414px;
+}
+.footer1{
+    margin-left: 0px;
+    width: 415px;
+    position: fixed;
+
+}
+.quick-link{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: small;
+    
+}
+.container2{
+    height: 1300px;
+    margin-bottom: 0;
+    width: 414px;
+}
+.RS2{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.content3{
+    height: 800px;
+    width: 414px;
+}
+.about1{
+    width: 414px;
+}
+.picture{
+    margin-left: 10px;
+}
+}
+/* ---responsive to Samsung Galaxy A51/71------ */
+@media only screen and (max-width: 413px) {
+.R1{
+    width: 412px;
+}
+.header{
+    width: 412px;
+}
+.RS1{
+    width: 412px;
+    height: 1400px;
+}
+.container1 {
+    width: 412px;
+}
+.container1 .skill-box {
+    width: 90%;
+    margin-left: 0px;
+}
+.container1{
+    margin-left: 10px;
+}
+.container2{
+    width: 412px;
+    height: 1800px;
+}
+.content3{
+    width: 412px;
+}
+.footer-icon{
+    margin-left: 0px;
+}
+.footer-icon{
+    margin-right: 5px;
+}
+.R5{
+    margin-left: 80px;
+}
+.RS2{
+    margin-left: 0px;
+}
+}
+/* ---responsive to iphone12 pro------ */
+/* @media only screen and (max-width: 395px) {
+.R1{
+    width: 390px;
+}
+.header{
+    width: 390px;
+}
+.RS1{
+    width: 390px;
+}
+.container2{
+    width: 390px;
+
+}
+.picture{
+    margin-left: 0px;
+}
+.second{
+    margin-left: 0px;
+}
+.R13{
+    width: 350px;
+}
+.footer1{
+    width: 390px;
+}
+.content3{
+    width: 390px;
+}
+} */
